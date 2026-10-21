@@ -5,6 +5,10 @@ body {
     background-color: hsl(221, 100%, 96%);
 }
 
+.result-summary-wrapper {
+    margin: 50px, auto;
+}
+
 .result-wrapper {
     width: 200px;
     border-radius: 15px;
