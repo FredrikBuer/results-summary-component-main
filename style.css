@@ -6,49 +6,53 @@ body {
 }
 
 .result-summary-wrapper {
-    margin: 50px, auto;
+
 }
 
 .result-wrapper {
     width: 200px;
     border-radius: 15px;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    padding: 10px;
 }
 
 .your-result-title {
-
+    font-size: 20px;
 }
 
 .score-wrapper {
-
+    border-radius: 50%;
+    background: linear-gradient(to top, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
 }
 
 .your-score {
-
+    font-size: 35px;
 }
 
 .max-score {
-
+    font-size: 18px;
 }
 
 .score-evaluation {
-
+    font-size: 25px;
 }
 
 .score-text {
-
+    font-size: 18px;
 }
 
 .summary-wrapper {
     width: 200px;
+    border-radius: 15px;
+    padding: 10px;
 }
 
 .summary-title {
-
+    font-size: 20px;
 }
 
 .reaction-container {
-
+    background-color: hsl(0, 100%, 67%);
 }
 
 .reaction-img {
@@ -56,19 +60,19 @@ body {
 }
 
 .reaction-text {
-
+ font-size: 20px;
 }
 
 .reaction-score {
-
+    font-size: 20px;
 }
 
 .reaction-max {
-
+    font-size: 20px;
 }
 
 .memory-container {
-
+    background-color: hsl(39, 100%, 56%);
 }
 
 .memory-img {
@@ -76,35 +80,39 @@ body {
 }
 
 .memory-text {
-
+    font-size: 20px;
 }
 
 .memory-score {
-
+    font-size: 20px;
 }
 
 .memory-max {
-
+    font-size: 20px;
 }
 
 .verbal-container {
-
+    background-color: hsl(166, 100%, 37%);
 }
 
 .verbal-img {
 
 }
 
-.verbal-score {
+.verbal.text {
+    font-size: 20px;
+}
 
+.verbal-score {
+    font-size: 20px;
 }
 
 .verbal-max {
-
+    font-size: 20px;
 }
 
 .visual-container {
-
+    background-color: hsl(234, 85%, 45%);
 }
 
 .visual-img {
@@ -112,17 +120,17 @@ body {
 }
 
 .visual-text {
-
+    font-size: 20px;
 }
 
 .visual-score {
-
+    font-size: 20px;
 }
 
 .visual-max {
-
+    font-size: 20px;
 }
 
 .continue-button {
-
+    background-color: hsla(241, 72%, 46%, 0);
 }
