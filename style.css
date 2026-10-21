@@ -6,7 +6,9 @@ body {
 }
 
 .result-wrapper {
-
+    width: 200px;
+    border-radius: 15px;
+    background: linear-gradient(to bottom, hsl(252, 100%, 67%),hsl(241, 81%, 54%));
 }
 
 .your-result-title {
@@ -34,7 +36,7 @@ body {
 }
 
 .summary-wrapper {
-
+    width: 200px;
 }
 
 .summary-title {
@@ -118,5 +120,5 @@ body {
 }
 
 .continue-button {
-    
+
 }
