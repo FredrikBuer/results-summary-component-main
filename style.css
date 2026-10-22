@@ -18,11 +18,12 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 200px;
+    width: 180px;
     height: 250px;
     border-radius: 15px;
     background: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     padding: 20px;
+    position: relative
 }
 
 .your-result-title {
@@ -40,6 +41,7 @@ body {
     width: 100px;
     border-radius: 50%;
     background: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    position: relative;
 }
 
 .your-score {
@@ -80,15 +82,19 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: hsl(0, 0%, 100%);
-    width: 250px;
+    width: 200px;
     height: 250px;
     border-radius: 15px;
     padding: 20px;
+    margin-left: -20px;
 }
 
 .summary-title {
-    font-size: 20px;
+    align-self: flex-start;
+    font-size: 15px;
     color: hsl(224, 30%, 27%);
+    margin-left: 20px;
+    margin-top: 0px;
 }
 
 .reaction-container {
@@ -96,30 +102,36 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
+    height: 33px;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     background-color: hsla(0, 100%, 67%, 0.1);
+    margin-left: 20px;
+    margin-top: -15px;
 }
 
 .summary-icons {
     padding-left: 10px;
+    width: 15px;
 }
 
 .reaction-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     color: hsl(0, 100%, 67%);
+    margin-left: -35px;
 }
 
 .summary-score {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 700;
     color: hsl(224, 30%, 27%);
-    margin-right: -30px;
+    margin-right: -38px;
 }
 
 .summary-score-max {
-    font-size: 14px;
+    font-size: 12px;
+    font-weight: 700;
     color: hsla(224, 30%, 27%, 0.5);
     margin-right: 10px;
 }
@@ -129,16 +141,19 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
+    height: 33px;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     background-color: hsla(39, 100%, 56%, 0.1);
+    margin-left: 20px;
+    margin-top: -10px;
 }
 
 .memory-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     color: hsl(39, 100%, 56%);
+    margin-left: -35px;
 }
 
 .verbal-container {
@@ -146,16 +161,20 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
+    height: 33px;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     background-color: hsla(166, 100%, 37%, 0.1);
+    margin-left: 20px;
+    margin-top: -10px;
 }
 
 .verbal-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     color: hsl(166, 100%, 37%);
+    margin-left: -37px;
+    margin-right: 10px;
 }
 
 .visual-container {
@@ -163,19 +182,30 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 45px;
+    height: 33px;
     border-radius: 10px;
-    width: 100%;
+    width: 90%;
     background-color: hsla(234, 85%, 45%, 0.1);
+    margin-left: 20px;
+    margin-top: -10px;
 }
 
 .visual-text {
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 800;
     color: hsl(234, 85%, 45%);
+    margin-left: -37px;
+    margin-right: 10px;
 }
 
 .continue-button {
-    background-color: hsla(241, 72%, 46%, 0);
-    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 30px;
+    color: white;
+    width: 90%;
+    height: 35px;
+    background-color: hsl(224, 30%, 27%);
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
