@@ -108,12 +108,12 @@ body {
  color: hsl(0, 100%, 67%);
 }
 
-.reaction-score {
+.summary-score {
     font-size: 20px;
     color: hsl(224, 30%, 27%)
 }
 
-.reaction-max {
+.summary-score-max {
     font-size: 20px;
     color: hsla(224, 30%, 27%, 0.5);
 }
@@ -139,16 +139,6 @@ body {
     color: hsl(39, 100%, 56%);
 }
 
-.memory-score {
-    font-size: 20px;
-    color: hsl(224, 30%, 27%)
-}
-
-.memory-max {
-    font-size: 20px;
-    color: hsla(224, 30%, 27%, 0.5);
-}
-
 .verbal-container {
     display: flex;
     flex-direction: row;
@@ -170,16 +160,6 @@ body {
     color: hsl(166, 100%, 37%);
 }
 
-.verbal-score {
-    font-size: 20px;
-    color: hsl(224, 30%, 27%)
-}
-
-.verbal-max {
-    font-size: 20px;
-    color: hsla(224, 30%, 27%, 0.5);
-}
-
 .visual-container {
     display: flex;
     flex-direction: row;
@@ -199,16 +179,6 @@ body {
     font-size: 20px;
     font-weight: 800;
     color: hsl(234, 85%, 45%);
-}
-
-.visual-score {
-    font-size: 20px;
-    color: hsl(224, 30%, 27%)
-}
-
-.visual-max {
-    font-size: 20px;
-    color: hsla(224, 30%, 27%, 0.5);
 }
 
 .continue-button {
